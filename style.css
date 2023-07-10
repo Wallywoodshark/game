@@ -1,0 +1,111 @@
+body{
+  background-color: black;
+  color:rgb(63, 243, 9)
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#result {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.buttonClass {
+  display: none;
+  justify-content: center;
+}
+
+#B2{
+  display: none;
+  
+}
+/* litte screen  */
+#s2{
+  display: none;
+
+}
+#littlescreen{
+  padding: 10px;
+  padding-top: 0px;
+  border: 5px rgb(63, 243, 9) double;
+  width: 200px;
+  position: absolute; /*or fixed*/
+  right: 100px;
+top: 50px;
+}
+#guessInput{
+ background-color: rgb(63, 243, 9);
+ 
+}
+#B1{
+  border-color:  rgb(63, 243, 9);
+}
+/* loading */
+.loader {
+  border: 16px double  rgb(63, 243, 9);
+  ; /* Light grey */
+  border-top: 16px solid #ffffff; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position: absolute; /*or fixed*/
+top: 217px;
+right: 590px;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+#load{
+  display:none ; 
+ 
+}
+#lt{
+  font-size: 50px;
+  position: absolute; /*or fixed*/
+  right: 550px;
+top: 350;
+}
+
+/* loading to new page */
+#home{
+display: none;
+}
+/* about me page */
+#me{
+  position: absolute; /*or fixed*/
+  right: 1170px;
+top: 50;
+}
+#metext{
+  position: absolute; /*or fixed*/
+  right: 1165px;
+top: 140;
+color: black;
+}
+/* All About Me  */
+#AboutMeText{
+  position: absolute; /*or fixed*/
+  left: 0px;
+top:0px;
+border: 2px white solid;
+font-size: 25px;
+width: 500px;
+
+}
+#Aboutme{
+display: none;
+}
+#AboutMeText{
+  color: rgb(16, 221, 221);
+  background-color: black;
+}
